@@ -55,6 +55,7 @@ https://github.com/alok6635/learning-kit/blob/main/js/demo/event_delegation.md
     *  const can't be updated.
  * scoping behavior-
     * var creates a function-scoped variable & it's does not have block scope.
+      
    ```
    function fun() {
     if (true) {
@@ -64,8 +65,9 @@ https://github.com/alok6635/learning-kit/blob/main/js/demo/event_delegation.md
     console.log(count);
 }
 fun()
-   ```
+```
     * let & const is block scope.
+
 ```
    function fun() {
     if (true) {
@@ -74,8 +76,9 @@ fun()
     }
     console.log(count);
 }
-fun()
+fun();
 ```
+
 
 * hoisting
     * all of them are hoisted but let & const have TDZ.      
