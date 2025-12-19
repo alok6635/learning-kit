@@ -6,7 +6,7 @@
   value. This means that all the properties of the original object or array are duplicated, and no references are retained.
 * shallow copy in array- slice(),concat(),spread operator.
 
-https://github.com/alok6635/escrKit/blob/main/js/demo/shallow_deep_copy.md
+https://github.com/alok6635/learning-kit/blob/main/js/demo/shallow_deep_copy.md
 
 ----------
 
@@ -15,7 +15,7 @@ https://github.com/alok6635/escrKit/blob/main/js/demo/shallow_deep_copy.md
 * apply is similar to the call function.difference is that in apply you can pass an array as an argument list.
 * bind is a function that helps create another function that you can execute later with the new context of this that is provided.
 
-https://github.com/alok6635/escrKit/blob/main/js/demo/call_apply_bind.md
+https://github.com/alok6635/learning-kit/blob/main/js/demo/call_apply_bind.md
 
 -------------
 
@@ -23,7 +23,7 @@ https://github.com/alok6635/escrKit/blob/main/js/demo/call_apply_bind.md
 
 * event.preventDefault() method is used to prevent the default behavior of an event and the link click will be prevented.
 
-https://github.com/alok6635/escrKit/blob/main/js/demo/prevent_default.md
+https://github.com/alok6635/learning-kit/blob/main/js/demo/prevent_default.md
 
 --------------
 
@@ -34,7 +34,7 @@ https://github.com/alok6635/escrKit/blob/main/js/demo/prevent_default.md
     the target element.
 * stop propagation- stopPropagation method is used to stop the event from bubbling up the event chain.
 
-https://github.com/alok6635/escrKit/blob/main/js/demo/event_flow.md
+https://github.com/alok6635/learning-kit/blob/main/js/demo/event_flow.md
 
 --------------
 
@@ -42,7 +42,7 @@ https://github.com/alok6635/escrKit/blob/main/js/demo/event_flow.md
 
 * event delegation is a technique where you attach an event listener to a parent element to handle events for its child elements.
 
-https://github.com/alok6635/escrKit/blob/main/js/demo/event_delegation.md
+https://github.com/alok6635/learning-kit/blob/main/js/demo/event_delegation.md
 
 --------------
 
@@ -57,7 +57,7 @@ https://github.com/alok6635/escrKit/blob/main/js/demo/event_delegation.md
    * re-assignment
        * var & let can be updated in the same scope but const can't be updated.
          
-https://github.com/alok6635/escrKit/blob/main/js/demo/var_let_const.md
+https://github.com/alok6635/learning-kit/blob/main/js/demo/var_let_const.md
 
 
 --------------
@@ -68,7 +68,7 @@ https://github.com/alok6635/escrKit/blob/main/js/demo/var_let_const.md
    are hoisted as undefined.
  * hoisting will not work with curly brackets & arrow function & variable function.
 
-https://github.com/alok6635/escrKit/blob/main/js/demo/hoisting.md
+https://github.com/alok6635/learning-kit/blob/main/js/demo/hoisting.md
 
 
 --------------
@@ -88,7 +88,7 @@ https://github.com/alok6635/escrKit/blob/main/js/demo/hoisting.md
 * arrow Functions Cannot be Used as Constructors
 * this keyword refers to the current context of the object.
 
-https://github.com/alok6635/escrKit/blob/main/js/demo/nrml_ftn_arrow_ftn.md
+https://github.com/alok6635/learning-kit/blob/main/js/demo/nrml_ftn_arrow_ftn.md
 
 --------------
 
@@ -97,14 +97,14 @@ https://github.com/alok6635/escrKit/blob/main/js/demo/nrml_ftn_arrow_ftn.md
 In inner ftn we can access the variable of the outer ftn.the child ftn is seen to have lexically bound the parent ftn.
 It is also called static scoping.
 
-https://github.com/alok6635/escrKit/blob/main/js/demo/lxcl_scp_closr_currny.md
+https://github.com/alok6635/learning-kit/blob/main/js/demo/lxcl_scp_closr_currny.md
 
 
 **#JSA11: closure**
 
 * closures- closures allow functions to remember the variables from the scope where they were created, even if the function is executed in a different scope.
   
-https://github.com/alok6635/escrKit/blob/main/js/demo/lxcl_scp_closr_currny.md
+https://github.com/alok6635/learning-kit/blob/main/js/demo/lxcl_scp_closr_currny.md
 
 --------------
   
@@ -113,7 +113,7 @@ https://github.com/alok6635/escrKit/blob/main/js/demo/lxcl_scp_closr_currny.md
 * Currying in JavaScript transforms a function with multiple arguments into a nested series of functions, each taking a single argument.
   Currying helps you avoid passing the same variable multiple times, and it helps you create a higher order function.  
 
-https://github.com/alok6635/escrKit/blob/main/js/demo/lxcl_scp_closr_currny.md
+https://github.com/alok6635/learning-kit/blob/main/js/demo/lxcl_scp_closr_currny.md
 
 --------------
 
@@ -136,7 +136,7 @@ https://github.com/alok6635/escrKit/blob/main/js/demo/lxcl_scp_closr_currny.md
    * race- gives output whoes promises resolve first.
    * any-
   
-https://github.com/alok6635/escrKit/edit/main/js/demo/hoisting.md
+https://github.com/alok6635/learning-kit/edit/main/js/demo/hoisting.md
 
 ----------
 
@@ -154,7 +154,7 @@ https://github.com/alok6635/escrKit/edit/main/js/demo/hoisting.md
          * ES7(2017)
          * async/await makes it easier to read & understand the program.
            
-https://github.com/alok6635/escrKit/edit/main/js/demo/hoisting.md
+https://github.com/alok6635/learning-kit/edit/main/js/demo/hoisting.md
 
 ------------
 
@@ -165,13 +165,13 @@ https://github.com/alok6635/escrKit/edit/main/js/demo/hoisting.md
 
 **#JSA16: throttling**
 
-https://github.com/alok6635/escrKit/blob/main/js/demo/hoisting.md
+https://github.com/alok6635/learning-kit/blob/main/js/demo/hoisting.md
 
 ------------
 
 **#JSA17: Debouncing** 
 
-https://github.com/alok6635/escrKit/blob/main/js/demo/hoisting.md
+https://github.com/alok6635/learning-kit/blob/main/js/demo/hoisting.md
 
 ------------
 
@@ -179,7 +179,7 @@ https://github.com/alok6635/escrKit/blob/main/js/demo/hoisting.md
 
 * memoization is a optimization technique that can be used to reduce time-comsuming calculations by saving previous input to something called cache and returning the result from it. 
   
- https://github.com/alok6635/escrKit/blob/main/js/demo/hoisting.md
+ https://github.com/alok6635/learning-kit/blob/main/js/demo/hoisting.md
 
 
 ------------
@@ -244,7 +244,7 @@ package.json-
 
 * setTimeOut and setinterval- setTimeout function calls only on time at spoecified time.setInterval call again and again at spoecified time.it's gives a id we can clearTimeOut(id).
 
-https://github.com/alok6635/escrKit/edit/main/js/demo/hoisting.md
+https://github.com/alok6635/learning-kit/edit/main/js/demo/hoisting.md
 
 ----------
 
@@ -262,7 +262,7 @@ https://github.com/alok6635/escrKit/edit/main/js/demo/hoisting.md
    * .__proto__ is a getter/setter for [[Prototype]]
    * .__proto__ is not  used now & recomded way is to use Object.getPrototypeOf() &  Object.setPrototypeOf()
 
-https://github.com/alok6635/escrKit/edit/main/js/demo/hoisting.md
+https://github.com/alok6635/learning-kit/edit/main/js/demo/hoisting.md
 
 
 **# iterables & iterators**
@@ -279,7 +279,7 @@ iteraable[Symbol.iterator]()=>Iterator
 * iterator are a object which have a next () method which return a object which is of  format {value:-some-value-,done:-boolean}.
 * value is the value we are interested in while done tell us when to stop. Genaerally when done:true the value undefined.
 
-https://github.com/alok6635/escrKit/edit/main/js/demo/hoisting.md
+https://github.com/alok6635/learning-kit/edit/main/js/demo/hoisting.md
       
 ----------
 
@@ -311,7 +311,7 @@ console.log(Array.from(arrayLike))
 * set only contains uniques elements.
 * map me key & value hoti hai but set me only ek value store hote hi (jo ki hme keys(),values(),entries() me dkhne ko milegi).
 
-https://github.com/alok6635/escrKit/edit/main/js/demo/hoisting.md
+https://github.com/alok6635/learning-kit/edit/main/js/demo/hoisting.md
 
 ----------
 
@@ -354,7 +354,7 @@ const fruits = new Map([["apples", 500], ["bananas", 300],["oranges", 200]])
 * it is special function before function always .and it have yield as normal function return and here it can retun more then one 
 and it will itable(like array ) and itrator (means get next value .next )
 
-https://github.com/alok6635/escrKit/edit/main/js/demo/hoisting.md
+https://github.com/alok6635/learning-kit/edit/main/js/demo/hoisting.md
 
 --------------
 
