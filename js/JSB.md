@@ -335,7 +335,6 @@ console.log(data)
      * try & catch- to take care of error handling.
       
 
-**# Difference for of loop & for in loop**
 
 **# Difference map & forEach**
 
@@ -398,62 +397,6 @@ if (typeof Worker !== "undefined") {
 
 ```
 
-**# strict mode in javascript**
-
-```
-x = 10; 
-console.log(x);
-
-"use strict";
-x = 10; 
-console.log(x)
-
-```
-
-**# differences between undeclared and undefined variables**
-
-```
-## Undefined- not assigning value 
-let x;
-console.log(x);
-
-## undeclared-  not creating variable.
-console.log(x);
-```
-
-**#JSTB18: which keywords are used to print the text on the screen.**
-* document.write.
-
-**#JSTB19: use of void(0)**
-* prevent the page from refreshing and parameter zero is passed while calling.
-
-**#JSTB20: error types in js.**
-
-```
-load time error
-run time error
-logical error 
-```
-
-**#JSTB21: find date**
-
-```
-let today= new Date()
-let dd= String(today.getDate())
-console.log(dd);
-let mm=String(today.getMonth()+1).padStart(2,'0')
-console.log(mm); 
-let yy=today.getFullYear()
-console.log(yy);
-today = dd + "-" + mm + '-' + yy
-console.log(today);
-```
-
-**#JSTB22: decode or encode a URL in JavaScript**
-
-* encodeURI(), decodeURI(),
-* encode characters such as / ? : @ & = + $ # then you need to use encodeURIComponent()
-      
 **#JSTB23 server-sent events check browser support for server-sent events**
 
 ```
