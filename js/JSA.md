@@ -58,6 +58,7 @@ https://github.com/alok6635/learning-kit/blob/main/js/demo/event_delegation.md
     * let & const is block scope.
 * hoisting
     * all of them are hoisted but let & const have TDZ.
+      
 https://github.com/alok6635/learning-kit/blob/main/js/demo/var_let_const.md
 
 --------------
