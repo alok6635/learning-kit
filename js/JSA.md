@@ -47,6 +47,7 @@ https://github.com/alok6635/learning-kit/blob/main/js/demo/event_delegation.md
 --------------
 
 **#JSA6: var & let & const-
+
 * re-declare-
         * var can be re-declared in the same scope. let & const can't re-declared in the same scope.
    * re-assignment-
