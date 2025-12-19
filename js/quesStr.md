@@ -1,6 +1,6 @@
 **# String**
 
-https://github.com/alok6635/escrKit/edit/main/js/demo/strAns.md
+https://github.com/alok6635/learning-kit/edit/main/js/demo/strAns.md
 
 **# check if a string starts with another string.**
 
