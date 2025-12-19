@@ -50,7 +50,7 @@ https://github.com/alok6635/learning-kit/blob/main/js/demo/event_delegation.md
  * re-declare-
      * var can be re-declared in the same scope.
      * let & const can't re-declared in the same scope.
- * re-assignment-
+ * re-assigne-
     * var & let can be updated in the same scope.
     *  const can't be updated.
  * scoping behavior-
