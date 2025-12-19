@@ -47,15 +47,15 @@ https://github.com/alok6635/learning-kit/blob/main/js/demo/event_delegation.md
 --------------
 
 **#JSA6: var & let & const**
-   * scoping behavior
-        * var is global & function scope.but it does not have block scope.
+   * scoping behavior-
+        * var is global & function scope and it does not have block scope.
         * let & const is global & block scope and.It does not have function scope.
-   * hoisting
-        * all of them are hoisted but let & const have TDZ.
-   * re-declaration
+   * re-declare-
         * var can be re-declared in the same scope. let & const can't re-declared in the same scope.
-   * re-assignment
+   * re-assignment-
        * var & let can be updated in the same scope but const can't be updated.
+   * hoisting
+        * all of them are hoisted but let & const have TDZ.      
          
 https://github.com/alok6635/learning-kit/blob/main/js/demo/var_let_const.md
 
