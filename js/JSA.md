@@ -46,12 +46,12 @@ https://github.com/alok6635/learning-kit/blob/main/js/demo/event_delegation.md
 
 --------------
 
-**#JSA6: var & let & const-
+**#JSA6: var & let & const**
 
-* re-declare-
-        * var can be re-declared in the same scope. let & const can't re-declared in the same scope.
+ * re-declare-
+    * var can be re-declared in the same scope. let & const can't re-declared in the same scope.
    * re-assignment-
-       * var & let can be updated in the same scope but const can't be updated.
+    * var & let can be updated in the same scope but const can't be updated.
    * scoping behavior-
         * var is global & function scope and it does not have block scope.
         * let & const is global & block scope and.It does not have function scope.
