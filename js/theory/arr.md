@@ -1,34 +1,12 @@
 * Array is a object. array is mutable- changes the original array like- push,pop,splice.
 
-* Creating array method
-
 ```
-@ array literal-
-let arr= ["eat", "sleep"];
-
-@ new keyword (constructor type)-
-let arr = new Array (1,2,3,4,5);
-console.log(arr[2]); 
-console.log(arr[6]);
-console.log(arr[3]=90);
-console.log(arr);
-
+let arr = [1,2,3,4,5];
 ```
-
-* length-
-  * counting start always 1 not 0.
-```
-let arr = new Array (1,2,3,4,5);
-console.log(arr[7]=100);
-console.log(arr);
-console.log(arr.length);
-
-@ check array item-
-let arr = new Array(4);
-console.log(arr);
-
-```
-
+* length- start 1
+* index- start 0
+**Method of array**
+  
 * at-
   *  returns value of index. 
 ```
