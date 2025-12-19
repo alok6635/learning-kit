@@ -54,7 +54,7 @@ https://github.com/alok6635/learning-kit/blob/main/js/demo/event_delegation.md
     * var & let can be updated in the same scope but const can't be updated.
  * scoping behavior-
     * var is global & function scope and it does not have block scope.
-    * let & const is global & block scope and.
+    * let & const is block scope and also global & function scope.
  * hoisting
     * all of them are hoisted but let & const have TDZ.      
          
