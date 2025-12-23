@@ -185,7 +185,7 @@ https://github.com/alok6635/learning-kit/blob/main/js/demo/hoisting.md
 
 ------------
 
-**#JSA19: fetch v/s axios v/s ajax**
+**#JSA19: fetch v/s axios**
 
 * fetch- fetch is used to make network requests, typically to fetch resources from a server. It returns a promise that resolves to the Response object 
  representing the response to the request.
