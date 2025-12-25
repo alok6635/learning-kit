@@ -42,18 +42,18 @@ let res = arr.splice(2, 0, 9);
 console.log(res);  
 console.log(arr);
 ```
+----------------------------------------------------------------------
 
 
 *# Array.from*
-* Array.from() does not change the original array.It returns a new array.used to copy arrays or convert array-like/iterable objects into arrays.
+* Array.from does not change the original array.It returns a new array.used to copy arrays or convert array-like/iterable objects into arrays.
 ```
 let arr= [10,20,30]
 let res= Array.from(arr);
 console.log(res);
 console.log(arr);
-* arr → original array, Array.from(arr) → creates a shallow copy of arr.res and arr have same values, but they are different arrays in memory
 ```
-
+* arr→ original array, Array.from(arr)→ creates a shallow copy of arr.res and arr have same values, but they are different arrays in memory
 
 ----------------------------------------------------------------------
 
