@@ -1,8 +1,8 @@
 
 **# TOPIC ARRAY**
-* Array is a object.it is mutable- changes the original array.index start is 0 and length start is 1.
+* Array is a object.Array is the mutable- change the original array.index start is 0 and length start is 1.
 * mutable methods- push,pop,shift,unshift,splice,sort,reverse,fill,copyWithin. 
-* immutable methods- concat,slice,map,filter,reduce,join,find,findIndex,includes.
+* immutable methods- map,filter,reduce,slice,concat,join,find,findIndex,includes.
 
 ----------------------------------------------------------------------
 
@@ -90,7 +90,7 @@ console.log(city);
 ```
 ----------------------------------------------------------------------
 
-* pop(last element), shift(first element)*
+*# pop(last element), shift(first element)*
 * it's remove a element in a array
 
 ```
