@@ -1,6 +1,9 @@
 
 **# TOPIC ARRAY**
-* Array is a object.it is mutable- changes the original array like- push,pop,splice.array index start is 0 and length start is 1.
+* Array is a object.it is mutable- changes the original array.index start is 0 and length start is 1.
+* mutable methods- push,pop,shift,unshift,splice,sort,reverse,fill,copyWithin. 
+* immutable methods- concat,slice,map,filter,reduce,join,find,findIndex,includes.
+
 
 *# slice v/s splice*
 
@@ -40,6 +43,16 @@ console.log(res);
 console.log(arr);
 ```
 
+
+*# Array.from*
+* Array.from() does not change the original array.It returns a new array.used to copy arrays or convert array-like/iterable objects into arrays.
+```
+let arr= [10,20,30]
+let res= Array.from(arr);
+console.log(res);
+console.log(arr);
+* arr → original array, Array.from(arr) → creates a shallow copy of arr.res and arr have same values, but they are different arrays in memory
+```
 
 
 ----------------------------------------------------------------------
