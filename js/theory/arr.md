@@ -258,28 +258,10 @@ const arr = [1,2,3];
 const newArr = [...arr, 9,8];
 console.log(newArr);
 ```
-  * slice
-```
-let arr=['alok','kittu']
-let res=arr.slice(0)
-console.log(res);
-```
-  * concat-
-```
-const arr = [1,2,3]
-const arr1 = [5,7,8]
-const ConcateArr = [...arr, ...arr1];
-console.log(ConcateArr)
-```
-
-  * Array.from()-
-```
-let arr= [10,20,30]
-let res=Array.from(arr)
-console.log(arr);
-```
+ 
 
 
-* mutable methods- push(),pop(),shift(),unshift(),splice(),sort(),reverse(),fill(),copyWithin(). 
-* immutable methods- concat(),slice(),map(),filter(),reduce(),join(),find(),findIndex(),includes().
+
+
+
 
