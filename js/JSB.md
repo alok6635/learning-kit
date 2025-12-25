@@ -65,7 +65,7 @@ console.log(arr1)
 ```
 ----------------------------------------------------------------------
 
-*# push(last element) ushift(first element)*
+*# push(last element) unshift(first element)*
 
 * it's insert a element in a array
 ```
@@ -108,6 +108,47 @@ console.log(city);
 ```
 
 ----------------------------------------------------------------------
+
+*# map & filter*
+* return a new array.not change the original array
+
+```
+* filter-
+let arr= [1,2,3,4,5,6,7]
+let res = arr.filter((item)=>item %2 ==0)
+console.log(res)
+console.log(arr)
+```
+----------------------------------------------------------------------
+
+*# reduce*
+* used to reduce the array to a single value (sum,object).
+```
+let arr = [1,2,3,4];
+let res = arr.reduce((acc, item) => acc + item, 0);
+console.log(res);
+console.log(arr);
+```
+* acc → accumulator(stores result), item → current element, 0 → initial value
+  
+----------------------------------------------------------------------
+*# flat v/s flatMap*
+* remove nested array. multiple nested- use the flat(Infinity) &  flat()-resolve only one level nested array.
+  
+```
+let arr= [1,2,3,[5,6,[9,[9,0,[1,2]],4]]]
+console.log(arr.flat());
+console.log(arr.flat(2));
+console.log(arr.flat(Infinity));
+```
+  
+----------------------------------------------------------------------
+
+
+----------------------------------------------------------------------
+
+
+
 
 *# Array.from*
 * Array.from does not change the original array.It returns a new array.used to copy arrays or convert array-like/iterable objects into arrays.
