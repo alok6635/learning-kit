@@ -53,7 +53,56 @@ console.log(res);
 console.log(arr);
 ```
 ----------------------------------------------------------------------
+*# join*
+* convert array to string.
+```
+let arr= [1,2,3].join()
+let arr1= [1,2,3].join('-')
+console.log(arr)
+console.log(arr1)
+```
+----------------------------------------------------------------------
 
+*# push-last ushift-first(array Insert)*
+```
+* push-
+let city = ['kanpur','lucknow','agra']
+let result = city.push('delhi',);
+console.log(result);
+console.log(city);
+
+let myHero = ['thor','shatiman', 'ratan']
+let dcHero = ['raja','powerman', 'lal']
+myHero.push(dcHero)
+console.log(myHero)
+
+* unshift-
+let city = ['kanpur','lucknow','agra']
+let result = city.unshift('delhi','merad');
+console.log(result);
+console.log(city);
+
+
+```
+----------------------------------------------------------------------
+
+* pop-last,shift-first(array Remove)-
+
+```
+pop-
+let city = ['kanpur','lucknow','agra','jhasi']
+let result = city.pop();
+console.log(result);
+console.log(city);
+
+shift-
+let city = ['kanpur','lucknow','agra']
+let result = city.shift();
+console.log(result);
+console.log(city);
+```
+
+----------------------------------------------------------------------
 
 *# Array.from*
 * Array.from does not change the original array.It returns a new array.used to copy arrays or convert array-like/iterable objects into arrays.
@@ -70,7 +119,7 @@ console.log(arr);
 ```
 let arr = [1,2,3]
 let arr1 = [5,7,8]
-let res = [...arr, ...arr1];
+let res = arr.concat(arr1)
 console.log(res)
 ```
 ----------------------------------------------------------------------
