@@ -4,6 +4,8 @@
 * mutable methods- push,pop,shift,unshift,splice,sort,reverse,fill,copyWithin. 
 * immutable methods- concat,slice,map,filter,reduce,join,find,findIndex,includes.
 
+----------------------------------------------------------------------
+
 
 *# slice v/s splice*
 
@@ -63,7 +65,9 @@ console.log(arr1)
 ```
 ----------------------------------------------------------------------
 
-*# push-last ushift-first(array Insert)*
+*# push(last element) ushift(first element)*
+
+* it's insert a element in a array
 ```
 * push-
 let city = ['kanpur','lucknow','agra']
@@ -86,7 +90,8 @@ console.log(city);
 ```
 ----------------------------------------------------------------------
 
-* pop-last,shift-first(array Remove)-
+* pop(last element), shift(first element)*
+* it's remove a element in a array
 
 ```
 pop-
