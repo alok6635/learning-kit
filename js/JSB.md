@@ -3,14 +3,12 @@
 * Array is a object.it is mutable- changes the original array like- push,pop,splice.array index start is 0 and length start is 1.
 
 **#difference b/w slice & splice**
-* slice- It doesn’t change the original array.slice method returns a new array. It selects the elements starting at the given start         argument, and ends at the given optional end argument without including the last element.
-
-* splice- splice method adds/removes items in array,splice method change the original array.first argument specifies the arra               position/index for insertion or deletion whereas the optional second argument indicates the number of elements to be deleted.
-* Note: Splice is change the original array,but slice is not
-
+* slice- doesn’t change the original array.returns a new array.It returns a new array and works from the start index up to the end index (but not including the end index).
+* splice- splice method change the original array.it's use for adds/removes items in array.
+* first argument is the index position.second argument (optional) is the number of elements to remove.extra arguments are elements to add
 
 ```
-### slice- 
+** slice- 
 let arr = [1,2,3,4,5,6];
 let arr1 = arr.slice(4); 
 console.log(arr1);
@@ -21,30 +19,21 @@ console.log(arr3);
 let arr4 = arr.slice(2,3); 
 console.log(arr4);
 
-###
-let arr2 = [1, 2, 3, 4, 5];
-let res2 = arr2.splice(3);
-console.log(res2);
-console.log(arr2);
-
-let arr3 = [1, 2, 3, 4, 5];
-let res3 = arr3.splice(3, 1, "a", "b", "c"); 
-console.log(res3);
-console.log(arr3);
-
-let arr=[6,11,18,10,12,16]
-let res= arr.splice(1,1)
+** splice-
+let arr = [1, 2, 3, 4, 5];
+let res = arr.splice(3);
 console.log(res)
+console.log(arr)
 
-let arr1 = [1, 2, 3, 4, 5];
-let res1 = arr1.splice(0, 2); 
-console.log(res1);
+let arr = [1, 2, 3, 4, 5];
+let res = arr.splice(0, 2); 
+console.log(res);
 
-let arr=[6,11,18,10,12,16]
-let res= arr.splice(2,2,15,20)
+let arr=[1,2,3,4,5,6]
+let res= arr.splice(2,3,15,20,50)
 console.log(res)
-@@@
-add value in array specific position- 
+console.log(arr)
+
 let arr = [1, 2, 3, 4, 5];
 let res = arr.splice(2, 0, 9);
 console.log(res);  
