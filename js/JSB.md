@@ -1,8 +1,8 @@
 
-**#Array**
+**# TOPIC ARRAY**
 * Array is a object.it is mutable- changes the original array like- push,pop,splice.array index start is 0 and length start is 1.
 
-**#difference b/w slice & splice**
+**# slice v/s splice**
 * slice- doesn’t change the original array.returns a new array.It returns a new array and works from the start index up to the end index (but not including the end index).
 * splice- splice method change the original array.it's use for adds/removes items in array.
 * first argument is the index position.second argument (optional) is the number of elements to remove.extra arguments are elements to add
