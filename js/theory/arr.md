@@ -29,54 +29,6 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 delete fruits[0];
 ```
 
-* array Insert (push-last,ushift-first)-
-```
-push-
-let city = ['kanpur','lucknow','agra']
-let result = city.push('delhi',);
-console.log(result);
-console.log(city);
-
-@ Imp-
-let myHero = ['thor','shatiman', 'ratan']
-let dcHero = ['raja','powerman', 'lal']
-myHero.push(dcHero)
-console.log(myHero)
-
-unshift-
-let city = ['kanpur','lucknow','agra']
-let result = city.unshift('delhi','merad');
-console.log(result);
-console.log(city);
-```
-
-* array Remove (pop-last,shift-first)-
-  
-```
-pop-
-let city = ['kanpur','lucknow','agra','jhasi']
-let result = city.pop('jhasi');
-console.log(result);
-console.log(city);
-
-shift-
-let city = ['kanpur','lucknow','agra']
-let result = city.shift();
-console.log(result);
-console.log(city);
-```
-* map-
-```
-let arr= [1,2,3]
-let res = arr.map((item)=>item*2)
-console.log(res)
-```
-* filter-
-```
-let arr= [1,2,3]
-let res = arr.filter((item)=>item >1)
-console.log(res)
-```
 * find-
    * first value which condition return true.
 ```
@@ -111,28 +63,8 @@ let res = arr.includes(3)
 console.log(res)
 ```
 
-* reduce-
-```
-let arr= [1,2,3]
-let res= arr.reduce((acc,num)=> acc+num,0)
-console.log(res)
-```
-* flat- remove nested array
-    * flat()- takes by default value =1;
-    * multiple array inside array- flat(Infinity)
 
-```
-@ I-
-let arr= [1,2,3,[5,6],[8,1]]
-console.log(arr.flat());
-@ II-  
-let arr1= [1,2,3,[5,6,[9,4]]]
-console.log(arr1.flat(2));
-let arr1= [1,2,3,[5,6,[9,4]]]
-@ III-   
-let arr= [1,2,3,[5,6,[9,[9,0,[1,2]],4]]]
-console.log(arr.flat(Infinity));
-```
+
 * flatMap-
  * using next array iterable thing.
 
@@ -193,14 +125,6 @@ console.log(arr)
 
 ```
 
-* split-
-```
-```
-* concat-
-```
-let arr= [1,2,3].concat([4,5])
-console.log(arr)
-```
 * reverse-
 ```
 let arr= [1,2,3].reverse()
@@ -230,14 +154,8 @@ var result = num.sort((a,b) => (a - b)-(b-a));
 console.log(result);
 
 
-* join-
-  * convert array to string.
-```
-let arr= [1,2,3].join()
-let arr1= [1,2,3].join('-')
-console.log(arr)
-console.log(arr1)
-```
+
+
 * tostring-
 ```
 let arr= [1,2,3].toString()
@@ -251,14 +169,7 @@ console.log(arr)
 console.log(typeof(arr))
 ```
 
-* Cloning/coping array-
-  * spread
-```
-const arr = [1,2,3];
-const newArr = [...arr, 9,8];
-console.log(newArr);
-```
- 
+
 
 
 
